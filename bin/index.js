@@ -12,12 +12,4 @@ program
   .description("order games")
   .action(() => order());
 
-// program
-//   .command("order [name]")
-//   .option("-k,--gamename [value]", "Spiderman", "GAME DESC").option("-t ,--ps4","play station 4")
-//   .action((name, args) =>
-//     console.log("you entered", args.gamename, "arg", name)
-//   );
-
-
 program.parse(process.argv)
